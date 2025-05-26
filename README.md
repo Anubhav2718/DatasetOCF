@@ -1,21 +1,25 @@
 # φ vs η₀ Dataset for Open Channel Flow Design
 
-##  Description
+## Description
 
-This dataset represents the variation of the function:
+This dataset captures the variation of the dimensionless function:
 
 \[
-\phi = f(\eta₀, m)
+\phi = f(\eta_0, m)
 \]
 
-Where:
+where:
 
-- **ϕ** is the dimensionless quantity:  
+- **ϕ** is a dimensionless parameter defined as:  
   \[
-  \phi = \frac{nQ}{\sqrt{S} B^{8/3}}
+  \phi = \frac{nQ}{\sqrt{S} \, B^{8/3}}
   \]
-- **η₀ = y/B** is the ratio of normal depth (*y*) to the bottom width (*B*).
-- **m** is the side slope factor (horizontal:vertical) of the channel.
+
+- **η₀ = y/B** is the ratio of the normal depth (*y*) to the bottom width (*B*).
+
+- **m** represents the side slope factor (horizontal : vertical) of the channel.
+
+---
 
 This dataset is useful while designing **channels for irrigation in open channel flow**. It provides a **convenient aid to determine the normal depth** in both **rectangular (m=0)** and **trapezoidal (m>0)** channels.
 
